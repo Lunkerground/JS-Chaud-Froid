@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>Exercice Chaud / Froid</title>
+</head>
+<body>
+	
+	<div id="titre">
+		<h1>Le Chaud / Froid !</h1>
+	</div>
+
+	<div id="page">
+
+		<div id="gauche">
+
+			<p>Le but du jeu est simple ! L'ordinateur choisira un nombre compris entre 0 et 100, à vous de deviner lequel ! Pour cela, quelques indices vous seront donnés (je dis bien quelques !) afin de vous aider au long du jeu :</p>
+
+			<ul>
+				<li><span id="chaud">Chaud</span> : vous vous approchez de la bonne réponse ;</li>
+				<li><span id="froid">Froid</span> : vous vous éloignez de la bonne réponse ;</li>
+			</ul>
+
+			<p>Pour commencer, vous devrez rentrer une valeur dans le champ de saisie ci-dessous puis cliquer sur le bouton "Valider" pour ... valider votre réponse (vous l'aviez pas vu venir celle-là) !</p>
+
+			<p>Bon jeu !</p>
+
+			<form method="post" action="" id="formulaire">
+				<label for="nombre">Votre nombre :</label>
+				<input type="nombre" name="nombre" id="nombre" placeholder="ex : 42"/>
+			</form>
+
+			<button onClick=number()>Valider</button>
+
+		</div>
+
+		<div id="droite">
+			<p><span id="chofroa"></span></p>
+			<img src="images/image1.png">
+		</div>
+
+	</div>
+
+	<script type="text/javascript" src="js/js.js"></script>
+
+</body>
+</html>
